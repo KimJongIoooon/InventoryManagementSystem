@@ -7,3 +7,15 @@ C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-Sys
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.exe
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.pdb
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Form1.resources
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.exe.config
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.exe
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.pdb
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csprojAssemblyReference.cache
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Properties.Resources.resources
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csproj.GenerateResource.cache
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csproj.CoreCompileInputs.cache
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.exe
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.pdb
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Login.resources
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.MainApp.resources
+E:\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Voorraad.resources
