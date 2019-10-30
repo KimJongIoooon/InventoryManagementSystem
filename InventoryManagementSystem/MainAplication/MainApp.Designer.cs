@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainApp));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bVerkopen = new System.Windows.Forms.Button();
             this.bBestellingen = new System.Windows.Forms.Button();
             this.bMedewerkers = new System.Windows.Forms.Button();
             this.bProducten = new System.Windows.Forms.Button();
             this.bVoorraad = new System.Windows.Forms.Button();
             this.bDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bVerkopen = new System.Windows.Forms.Button();
             this.voorraad1 = new MainAplication.Designs.Voorraad();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -59,6 +59,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(206, 623);
             this.panel1.TabIndex = 0;
+            // 
+            // bVerkopen
+            // 
+            this.bVerkopen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bVerkopen.FlatAppearance.BorderSize = 0;
+            this.bVerkopen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bVerkopen.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bVerkopen.ForeColor = System.Drawing.Color.White;
+            this.bVerkopen.Location = new System.Drawing.Point(13, 428);
+            this.bVerkopen.Name = "bVerkopen";
+            this.bVerkopen.Size = new System.Drawing.Size(193, 54);
+            this.bVerkopen.TabIndex = 2;
+            this.bVerkopen.Text = "Verkopen";
+            this.bVerkopen.UseVisualStyleBackColor = false;
+            this.bVerkopen.Click += new System.EventHandler(this.bVerkopen_Click);
             // 
             // bBestellingen
             // 
@@ -143,21 +158,6 @@
             this.panel2.Size = new System.Drawing.Size(13, 54);
             this.panel2.TabIndex = 0;
             // 
-            // bVerkopen
-            // 
-            this.bVerkopen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.bVerkopen.FlatAppearance.BorderSize = 0;
-            this.bVerkopen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bVerkopen.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bVerkopen.ForeColor = System.Drawing.Color.White;
-            this.bVerkopen.Location = new System.Drawing.Point(13, 428);
-            this.bVerkopen.Name = "bVerkopen";
-            this.bVerkopen.Size = new System.Drawing.Size(193, 54);
-            this.bVerkopen.TabIndex = 2;
-            this.bVerkopen.Text = "Verkopen";
-            this.bVerkopen.UseVisualStyleBackColor = false;
-            this.bVerkopen.Click += new System.EventHandler(this.bVerkopen_Click);
-            // 
             // voorraad1
             // 
             this.voorraad1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -168,7 +168,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MainAplication.Properties.Resources._2019_10_30__2_;
+            this.pictureBox1.Image = global::MainAplication.Properties.Resources._2019_10_30__2_1;
             this.pictureBox1.Location = new System.Drawing.Point(22, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(158, 110);
