@@ -28,3 +28,23 @@ C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-Sys
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Producten.resources
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Verkopen.resources
 C:\Users\20183799\OneDrive - Office 365 Fontys\Proftaak\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Winkels.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csprojAssemblyReference.cache
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Bestellingen.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Categorieën.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Dashboard.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Medewerkers.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Producten.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Verkopen.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Voorraad.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Designs.Winkels.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.MainApp.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Login.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.Properties.Resources.resources
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csproj.GenerateResource.cache
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.csproj.CoreCompileInputs.cache
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.exe
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.pdb
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.exe.config
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.exe
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\bin\Debug\MainAplication.pdb
+C:\Users\yoeri\Documents\GitHub\Inventory-Management-System\InventoryManagementSystem\MainAplication\obj\Debug\MainAplication.LoginSettings.resources

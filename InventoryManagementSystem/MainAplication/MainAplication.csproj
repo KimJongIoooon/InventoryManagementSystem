@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
@@ -95,6 +96,12 @@
     <Compile Include="Designs\Winkels.Designer.cs">
       <DependentUpon>Winkels.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSettings.Designer.cs">
+      <DependentUpon>LoginSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainApp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Designs\Winkels.resx">
       <DependentUpon>Winkels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSettings.resx">
+      <DependentUpon>LoginSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainApp.resx">
       <DependentUpon>MainApp.cs</DependentUpon>

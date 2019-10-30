@@ -26,8 +26,10 @@ namespace MainAplication
             
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void bLoginSettings_Click(object sender, EventArgs e)
         {
+            LoginSettings mijnSettings = new LoginSettings(ip);
+            mijnSettings.Show();
             
         }
     }

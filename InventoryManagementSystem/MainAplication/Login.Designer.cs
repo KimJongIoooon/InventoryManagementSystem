@@ -30,48 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.bLogin = new System.Windows.Forms.Button();
-            this.tBoxPassWord = new MainAplication.PlaceHolderTextBox();
-            this.tBoxUserName = new MainAplication.PlaceHolderTextBox();
             this.lWelcome = new System.Windows.Forms.Label();
             this.bPass = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bSettings = new System.Windows.Forms.Button();
+            this.tBoxPassWord = new MainAplication.PlaceHolderTextBox();
+            this.tBoxUserName = new MainAplication.PlaceHolderTextBox();
             this.SuspendLayout();
             // 
             // bLogin
             // 
             this.bLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bLogin.Location = new System.Drawing.Point(121, 405);
-            this.bLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bLogin.Margin = new System.Windows.Forms.Padding(4);
             this.bLogin.Name = "bLogin";
             this.bLogin.Size = new System.Drawing.Size(187, 41);
             this.bLogin.TabIndex = 7;
             this.bLogin.Text = "Login";
             this.bLogin.UseVisualStyleBackColor = true;
-            // 
-            // tBoxPassWord
-            // 
-            this.tBoxPassWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
-            this.tBoxPassWord.ForeColor = System.Drawing.Color.Gray;
-            this.tBoxPassWord.Location = new System.Drawing.Point(44, 352);
-            this.tBoxPassWord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tBoxPassWord.Name = "tBoxPassWord";
-            this.tBoxPassWord.PlaceHolderText = "password";
-            this.tBoxPassWord.Size = new System.Drawing.Size(306, 37);
-            this.tBoxPassWord.TabIndex = 10;
-            this.tBoxPassWord.Text = "password";
-            // 
-            // tBoxUserName
-            // 
-            this.tBoxUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
-            this.tBoxUserName.ForeColor = System.Drawing.Color.Gray;
-            this.tBoxUserName.Location = new System.Drawing.Point(44, 299);
-            this.tBoxUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tBoxUserName.Name = "tBoxUserName";
-            this.tBoxUserName.PlaceHolderText = "username";
-            this.tBoxUserName.Size = new System.Drawing.Size(306, 37);
-            this.tBoxUserName.TabIndex = 9;
-            this.tBoxUserName.Text = "username";
             // 
             // lWelcome
             // 
@@ -105,18 +81,42 @@
             this.label1.Size = new System.Drawing.Size(328, 317);
             this.label1.TabIndex = 12;
             // 
-            // button1
+            // bSettings
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1008, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(42, 42);
-            this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.bSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bSettings.FlatAppearance.BorderSize = 0;
+            this.bSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bSettings.Image = ((System.Drawing.Image)(resources.GetObject("bSettings.Image")));
+            this.bSettings.Location = new System.Drawing.Point(1008, 12);
+            this.bSettings.Name = "bSettings";
+            this.bSettings.Size = new System.Drawing.Size(42, 42);
+            this.bSettings.TabIndex = 13;
+            this.bSettings.UseVisualStyleBackColor = true;
+            this.bSettings.Click += new System.EventHandler(this.bLoginSettings_Click);
+            // 
+            // tBoxPassWord
+            // 
+            this.tBoxPassWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
+            this.tBoxPassWord.ForeColor = System.Drawing.Color.Gray;
+            this.tBoxPassWord.Location = new System.Drawing.Point(44, 352);
+            this.tBoxPassWord.Margin = new System.Windows.Forms.Padding(4);
+            this.tBoxPassWord.Name = "tBoxPassWord";
+            this.tBoxPassWord.PlaceHolderText = "password";
+            this.tBoxPassWord.Size = new System.Drawing.Size(306, 37);
+            this.tBoxPassWord.TabIndex = 10;
+            this.tBoxPassWord.Text = "password";
+            // 
+            // tBoxUserName
+            // 
+            this.tBoxUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
+            this.tBoxUserName.ForeColor = System.Drawing.Color.Gray;
+            this.tBoxUserName.Location = new System.Drawing.Point(44, 299);
+            this.tBoxUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.tBoxUserName.Name = "tBoxUserName";
+            this.tBoxUserName.PlaceHolderText = "username";
+            this.tBoxUserName.Size = new System.Drawing.Size(306, 37);
+            this.tBoxUserName.TabIndex = 9;
+            this.tBoxUserName.Text = "username";
             // 
             // Login
             // 
@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1062, 673);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bSettings);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bPass);
             this.Controls.Add(this.bLogin);
@@ -133,7 +133,7 @@
             this.Controls.Add(this.lWelcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.Text = "Login";
@@ -151,6 +151,6 @@
         private System.Windows.Forms.Label lWelcome;
         private System.Windows.Forms.Button bPass;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bSettings;
     }
 }
