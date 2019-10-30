@@ -47,11 +47,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Designs\Bestellingen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Bestellingen.Designer.cs">
+      <DependentUpon>Bestellingen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Categorieën.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Categorieën.Designer.cs">
+      <DependentUpon>Categorieën.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Medewerkers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Medewerkers.Designer.cs">
+      <DependentUpon>Medewerkers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Producten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Producten.Designer.cs">
+      <DependentUpon>Producten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Verkopen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Verkopen.Designer.cs">
+      <DependentUpon>Verkopen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Designs\Voorraad.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Designs\Voorraad.Designer.cs">
       <DependentUpon>Voorraad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\Winkels.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designs\Winkels.Designer.cs">
+      <DependentUpon>Winkels.cs</DependentUpon>
     </Compile>
     <Compile Include="MainApp.cs">
       <SubType>Form</SubType>
@@ -87,6 +129,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -100,6 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019-10-30 %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

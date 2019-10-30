@@ -46,5 +46,11 @@ namespace MainAplication
             panel2.Height = bBestellingen.Height;
             panel2.Top = bBestellingen.Top;
         }
+
+        private void bVerkopen_Click(object sender, EventArgs e)
+        {
+            panel2.Height = bVerkopen.Height;
+            panel2.Top = bVerkopen.Top;
+        }
     }
 }
