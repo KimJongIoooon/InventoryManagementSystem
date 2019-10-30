@@ -37,8 +37,15 @@
             this.bVoorraad = new System.Windows.Forms.Button();
             this.bDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.voorraad1 = new MainAplication.Designs.Voorraad();
+            this.voorraadScreen = new MainAplication.Designs.Voorraad();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.winkelsScreen = new MainAplication.Designs.Winkels();
+            this.verkopenScreen = new MainAplication.Designs.Verkopen();
+            this.productenScreen = new MainAplication.Designs.Producten();
+            this.medewerkersScreen = new MainAplication.Designs.Medewerkers();
+            this.dashboardScreen = new MainAplication.Designs.Dashboard();
+            this.categorieënScreen = new MainAplication.Designs.Categorieën();
+            this.bestellingenScreen = new MainAplication.Designs.Bestellingen();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -158,13 +165,13 @@
             this.panel2.Size = new System.Drawing.Size(13, 54);
             this.panel2.TabIndex = 0;
             // 
-            // voorraad1
+            // voorraadScreen
             // 
-            this.voorraad1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.voorraad1.Location = new System.Drawing.Point(206, 0);
-            this.voorraad1.Name = "voorraad1";
-            this.voorraad1.Size = new System.Drawing.Size(1030, 623);
-            this.voorraad1.TabIndex = 1;
+            this.voorraadScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.voorraadScreen.Location = new System.Drawing.Point(206, 0);
+            this.voorraadScreen.Name = "voorraadScreen";
+            this.voorraadScreen.Size = new System.Drawing.Size(1030, 623);
+            this.voorraadScreen.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -176,16 +183,80 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // winkelsScreen
+            // 
+            this.winkelsScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.winkelsScreen.Location = new System.Drawing.Point(0, 0);
+            this.winkelsScreen.Name = "winkelsScreen";
+            this.winkelsScreen.Size = new System.Drawing.Size(1236, 623);
+            this.winkelsScreen.TabIndex = 2;
+            // 
+            // verkopenScreen
+            // 
+            this.verkopenScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.verkopenScreen.Location = new System.Drawing.Point(206, 0);
+            this.verkopenScreen.Name = "verkopenScreen";
+            this.verkopenScreen.Size = new System.Drawing.Size(1030, 623);
+            this.verkopenScreen.TabIndex = 3;
+            // 
+            // productenScreen
+            // 
+            this.productenScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productenScreen.Location = new System.Drawing.Point(206, 0);
+            this.productenScreen.Name = "productenScreen";
+            this.productenScreen.Size = new System.Drawing.Size(1030, 623);
+            this.productenScreen.TabIndex = 4;
+            // 
+            // medewerkersScreen
+            // 
+            this.medewerkersScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.medewerkersScreen.Location = new System.Drawing.Point(206, 0);
+            this.medewerkersScreen.Name = "medewerkersScreen";
+            this.medewerkersScreen.Size = new System.Drawing.Size(1030, 623);
+            this.medewerkersScreen.TabIndex = 5;
+            // 
+            // dashboardScreen
+            // 
+            this.dashboardScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dashboardScreen.Location = new System.Drawing.Point(206, 0);
+            this.dashboardScreen.Name = "dashboardScreen";
+            this.dashboardScreen.Size = new System.Drawing.Size(1030, 623);
+            this.dashboardScreen.TabIndex = 6;
+            // 
+            // categorieënScreen
+            // 
+            this.categorieënScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.categorieënScreen.Location = new System.Drawing.Point(206, 0);
+            this.categorieënScreen.Name = "categorieënScreen";
+            this.categorieënScreen.Size = new System.Drawing.Size(1030, 623);
+            this.categorieënScreen.TabIndex = 7;
+            // 
+            // bestellingenScreen
+            // 
+            this.bestellingenScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bestellingenScreen.Location = new System.Drawing.Point(206, 0);
+            this.bestellingenScreen.Name = "bestellingenScreen";
+            this.bestellingenScreen.Size = new System.Drawing.Size(1030, 623);
+            this.bestellingenScreen.TabIndex = 8;
+            // 
             // MainApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1236, 623);
-            this.Controls.Add(this.voorraad1);
+            this.Controls.Add(this.bestellingenScreen);
+            this.Controls.Add(this.categorieënScreen);
+            this.Controls.Add(this.dashboardScreen);
+            this.Controls.Add(this.medewerkersScreen);
+            this.Controls.Add(this.productenScreen);
+            this.Controls.Add(this.verkopenScreen);
+            this.Controls.Add(this.voorraadScreen);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.winkelsScreen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainApp";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainApp_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -201,9 +272,16 @@
         private System.Windows.Forms.Button bMedewerkers;
         private System.Windows.Forms.Button bProducten;
         private System.Windows.Forms.Button bVoorraad;
-        private Designs.Voorraad voorraad1;
+        private Designs.Voorraad voorraadScreen;
         private System.Windows.Forms.Button bVerkopen;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Designs.Winkels winkelsScreen;
+        private Designs.Verkopen verkopenScreen;
+        private Designs.Producten productenScreen;
+        private Designs.Medewerkers medewerkersScreen;
+        private Designs.Dashboard dashboardScreen;
+        private Designs.Categorieën categorieënScreen;
+        private Designs.Bestellingen bestellingenScreen;
     }
 }
 

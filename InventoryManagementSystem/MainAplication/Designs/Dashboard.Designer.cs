@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Dashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "Dashboard";
+            this.Size = new System.Drawing.Size(1024, 485);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

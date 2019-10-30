@@ -112,8 +112,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Designs\Bestellingen.resx">
+      <DependentUpon>Bestellingen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Categorieën.resx">
+      <DependentUpon>Categorieën.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Medewerkers.resx">
+      <DependentUpon>Medewerkers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Producten.resx">
+      <DependentUpon>Producten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Verkopen.resx">
+      <DependentUpon>Verkopen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Designs\Voorraad.resx">
       <DependentUpon>Voorraad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designs\Winkels.resx">
+      <DependentUpon>Winkels.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainApp.resx">
       <DependentUpon>MainApp.cs</DependentUpon>
